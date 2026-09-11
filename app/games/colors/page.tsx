@@ -102,9 +102,8 @@ export default function Colors() {
 			<div
 				className="color-target"
 				style={{ backgroundColor: colorRun[targetIndex] }}
-			>
-				<span>{colorRun[targetIndex]}</span>
-			</div>
+				aria-label="Target color"
+			></div>
 			<form className="color-picker-form" onSubmit={submitGuess}>
 				<label htmlFor="color-guess">Your color</label>
 				<div className="color-picker-row">
