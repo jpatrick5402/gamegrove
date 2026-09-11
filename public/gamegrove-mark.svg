@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img"
+  aria-labelledby="title desc">
+  <title id="title">GameGrove mark</title>
+  <desc id="desc">Three leaves framing a winding game path.</desc>
+  <rect width="128" height="128" rx="30" fill="#101719" />
+  <path d="M58 98c-3-20 9-27 10-42 1-11-7-21-18-30" fill="none" stroke="#f2a65a"
+    stroke-linecap="round" stroke-width="9" />
+  <path d="M54 27C37 21 22 31 20 48c16 3 28-3 34-21Z" fill="#f47d5d" />
+  <path d="M73 44c17 1 31-9 35-25-17-5-31 4-35 25Z" fill="#55b88a" />
+  <path d="M74 69c15-2 27 5 32 19-15 5-28-1-32-19Z" fill="#f2a65a" />
+</svg>

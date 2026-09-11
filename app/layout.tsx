@@ -15,7 +15,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: "GameGrove | Where You Pretend You're at Work",
-	description: "A curated game selection",
+	description: "A tiny arcade for big breaks.",
+	icons: {
+		icon: "/favicon.ico",
+		shortcut: "/favicon.ico",
+	},
+	openGraph: {
+		title: "GameGrove",
+		description: "A tiny arcade for big breaks.",
+		images: ["/gamegrove-social.svg"],
+	},
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

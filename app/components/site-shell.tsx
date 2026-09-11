@@ -25,7 +25,10 @@ export default function SiteShell({ children }: { children: ReactNode }) {
 		<div className="site-shell">
 			<nav className="site-nav" aria-label="Main navigation">
 				<Link className="site-brand" href="/">
-					Game<span>Grove</span>
+					<img src="/gamegrove-mark.svg" alt="" />
+					<span className="site-brand-text">
+						Game<span>Grove</span>
+					</span>
 				</Link>
 				<div className="site-nav-links">
 					<Link href="/games">Catalogue</Link>

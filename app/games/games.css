@@ -64,7 +64,7 @@
 	margin: 0;
 	font-size: clamp(2rem, 7vw, 3rem);
 	line-height: 0.95;
-	letter-spacing: -0.04em;
+	letter-spacing: 0;
 }
 
 .memory-progress {
@@ -366,7 +366,7 @@
 	margin: 0;
 	font-size: clamp(2.5rem, 8vw, 5rem);
 	line-height: 0.9;
-	letter-spacing: -0.07em;
+	letter-spacing: 0;
 }
 
 .arcade-heading > p:last-child {
